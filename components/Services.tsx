@@ -86,6 +86,23 @@ export function Services({ artist }: ServicesProps) {
   const visibleItems = items.slice(startIndex, startIndex + 3);
   const canGoPrevious = startIndex > 0;
   const canGoNext = startIndex + 3 < items.length;
+  const minimumPrice = items.reduce<number | null>((lowest, service) => {
+    const parsedPrice = Number.parseInt(service.priceFrom.replace(/[^\d]/g, ""), 10);
+
+    if (Number.isNaN(parsedPrice)) {
+      return lowest;
+    }
+
+    if (lowest === null || parsedPrice < lowest) {
+      return parsedPrice;
+    }
+
+    return lowest;
+  }, null);
+
+  function isQuoteOnlyPrice(price: string) {
+    return price.trim().toLowerCase() === "sur devis";
+  }
 
   function handlePrevious() {
     if (!canGoPrevious) return;
@@ -113,9 +130,13 @@ export function Services({ artist }: ServicesProps) {
 
         <div className="mt-8">
           <div className="flex items-center justify-between gap-4">
-            <p className="magazine-meta">
-              {items.length} offres
-            </p>
+            <div className="inline-flex items-center gap-3 rounded-full border border-black/8 bg-white px-4 py-2 shadow-[0_10px_28px_rgba(23,19,18,0.06)]">
+              <span className="magazine-meta">{items.length} offres</span>
+              <span className="h-1.5 w-1.5 rounded-full bg-ink/25" />
+              <span className="text-[10px] uppercase tracking-[0.28em] text-ink/48">
+                {minimumPrice !== null ? `à partir de ${minimumPrice} €` : "sur devis"}
+              </span>
+            </div>
             <div className="flex items-center gap-2">
               <button
                 type="button"
@@ -145,27 +166,31 @@ export function Services({ artist }: ServicesProps) {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.45, delay: index * 0.05 }}
-                className="luxury-panel group flex h-full flex-col rounded-[0.85rem] p-4 transition-transform duration-300 hover:-translate-y-1 md:p-5"
+                className="luxury-panel group relative flex h-full flex-col overflow-hidden rounded-[0.95rem] border border-black/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.98)_0%,rgba(247,241,236,0.9)_100%)] p-4 shadow-[0_20px_60px_rgba(23,19,18,0.08)] transition-transform duration-300 hover:-translate-y-1 md:p-5"
               >
+                  <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,rgba(23,19,18,0.75),rgba(23,19,18,0.12))]" />
                   <div className="flex items-start justify-between gap-4">
-                    <div className="flex h-11 w-11 items-center justify-center border border-black/8 bg-white/70 text-ink">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-[0.65rem] border border-black/8 bg-white text-ink shadow-[0_10px_22px_rgba(23,19,18,0.06)]">
                       {serviceIcons[service.icon]}
                     </div>
                     <div className="text-right">
                       <p className="magazine-meta">
                         {String(startIndex + index + 1).padStart(2, "0")}
                       </p>
-                      <p className="mt-2 text-[11px] uppercase tracking-[0.28em] text-ink/45">
-                        à partir de
-                      </p>
-                      <p className="mt-2 font-serif text-[1.45rem] leading-none text-ink md:text-[1.6rem]">
+                      {!isQuoteOnlyPrice(service.priceFrom) ? (
+                        <p className="mt-3 inline-flex items-center rounded-full border border-black/10 bg-white px-3 py-1.5 text-[10px] uppercase tracking-[0.28em] text-ink/72">
+                          à partir de
+                        </p>
+                      ) : null}
+                      <p className="mt-2 font-serif text-[2.35rem] leading-none text-ink md:text-[2.75rem]">
                         {service.priceFrom}
                       </p>
+                      <div className="ml-auto mt-3 h-[2px] w-16 bg-[linear-gradient(90deg,rgba(23,19,18,0.82),rgba(23,19,18,0.1))]" />
                     </div>
                   </div>
 
                   <div className="mt-4 flex-1">
-                    <h3 className="max-w-[14ch] font-serif text-[1.5rem] leading-[0.95] text-ink md:text-[1.8rem]">
+                    <h3 className="max-w-[14ch] font-serif text-[1.72rem] leading-[0.95] text-ink md:text-[2.1rem]">
                       {service.title}
                     </h3>
                     <p className="mt-3 max-w-[28ch] text-[0.92rem] leading-6 text-ink/68">
@@ -174,12 +199,12 @@ export function Services({ artist }: ServicesProps) {
                   </div>
 
                   <div className="mt-4 flex items-center justify-between border-t border-black/8 pt-3">
-                    <p className="text-[9px] uppercase tracking-[0.32em] text-ink/34">
+                    <p className="text-[9px] uppercase tracking-[0.32em] text-ink/40">
                       Service
                     </p>
                     <a
                       href="#contact"
-                      className="inline-flex border-b border-black/60 pb-1 text-[9px] uppercase tracking-[0.32em] text-ink transition-opacity duration-300 hover:opacity-60"
+                      className="inline-flex rounded-full border border-ink bg-ink px-3 py-2 text-[9px] uppercase tracking-[0.32em] text-white transition-opacity duration-300 hover:opacity-60"
                     >
                       Réserver
                     </a>

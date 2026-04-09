@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 const defaultSiteUrl = "https://ishma-makeupartist.vercel.app";
 const defaultDescription =
-  "Hair & Makeup Artist à Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche élégante, douce et sur mesure.";
+  "Hair & Makeup Artist. Bridal, glam et natural glow avec une approche élégante, douce et sur mesure.";
 const defaultOgImagePath = "/opengraph-image";
 
 export const seoConfig = {

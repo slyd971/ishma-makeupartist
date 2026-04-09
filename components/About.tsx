@@ -61,7 +61,7 @@ export function About({ artist }: AboutProps) {
                 Qui est Ishma
               </h2>
               <p className="max-w-xl text-base leading-8 text-ink/68 md:text-lg">
-                {artist.tagline} installée à {artist.location}.
+                {artist.tagline}
               </p>
               <div className="space-y-4 text-[0.98rem] leading-7 text-ink/72 md:hidden md:text-[1.02rem]">
                 {mobileParagraphs.map((paragraph) => (
