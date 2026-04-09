@@ -1,0 +1,721 @@
+[
+  {
+    "slug": "ishmakeup-co",
+    "name": "Ishma Make Up Artist",
+    "tagline": "Hair & Makeup Artist | Bridal, Glam & Natural Glow",
+    "location": "Neuilly-sur-Marne",
+    "availability": "Devis sous 24 à 48h",
+    "intro": "Sublimer sans dénaturer, avec une mise en beauté lumineuse, douce et entièrement pensée pour la personne qui la porte.",
+    "bio": "Ishma est coiffeuse et make-up artist depuis 20 ans. Après 14 années passées en salon et en parfumerie, elle a enrichi sa pratique grâce à des formations auprès de grandes marques, avec une exigence constante de perfectionnement. Son univers mêle glamour, lumière et naturel, toujours avec l'idée de révéler chaque visage sans jamais l'effacer. Mariées, invitées, hommes ou clientes en préparation d'un événement privé, d'un shooting ou d'un moment important, elle prend le temps d'écouter, de comprendre les attentes et de créer une mise en beauté réellement sur mesure. Elle propose également des cours d'auto-maquillage pour adultes et adolescentes, pensés pour apprendre les bons gestes, gagner en confiance et affiner sa technique avec des conseils simples et personnalisés. Pointilleuse, sérieuse, douce et très à l'écoute, Ishma accorde autant d'importance au résultat qu'à l'expérience vécue pendant la prestation, avec une approche rassurante, élégante et profondément humaine.",
+    "hero": {
+      "variant": "editorial-split",
+      "primaryImage": "/ishma/hero-ishma.jpeg",
+      "primaryAlt": "Ishma en portrait hero, beauté bridal et glamour naturel",
+      "secondaryImage": "/ishma/profile-ishma.jpeg",
+      "secondaryAlt": "Portrait d'Ishma, hair and makeup artist",
+      "videoSrc": "/ishma/video-mariage-1.mp4",
+      "videoPoster": "/ishma/gallery-mariage-2.jpeg"
+    },
+    "services": [
+      {
+        "title": "Bridal Makeup Signature",
+        "description": "Essai et jour J réunis dans une prestation pensée pour une mariée qui souhaite un rendu lumineux, durable et fidèle à sa personnalité, sans frais de déplacement.",
+        "priceFrom": "210 €",
+        "icon": "diamond"
+      },
+      {
+        "title": "Bridal Hair & Makeup",
+        "description": "Coiffure et maquillage mariée avec essai et jour J, pour une silhouette beauté harmonieuse, raffinée et sereine du premier regard jusqu'aux photos.",
+        "priceFrom": "400 €",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Beauty Event & Invitée",
+        "description": "Mise en beauté élégante pour anniversaires, EVJF, soirées et événements privés, avec un glamour naturel pensé pour tenir et flatter en vrai comme en photo.",
+        "priceFrom": "50 €",
+        "icon": "brush"
+      },
+      {
+        "title": "Makeup Jour",
+        "description": "Maquillage de jour lumineux et soigné, adapté à la carnation, au style et à l'occasion, pour une allure fraîche, juste et parfaitement maîtrisée.",
+        "priceFrom": "65 €",
+        "icon": "profile"
+      },
+      {
+        "title": "Coiffure Événement",
+        "description": "Coiffure événementielle à partir de 50 €, réalisée dans un esprit chic, confortable et cohérent avec la tenue, le visage et le rythme de la journée.",
+        "priceFrom": "50 €",
+        "icon": "sparkle"
+      },
+      {
+        "title": "Cours d'Auto-Maquillage",
+        "description": "Sessions solo ou en groupe, pour adultes et ados, avec conseils personnalisés, gestes simples et routine beauté sur mesure selon le niveau et les envies.",
+        "priceFrom": "90 €",
+        "icon": "brush"
+      },
+      {
+        "title": "Shooting & Clip",
+        "description": "Prestations beauté pour shootings photo, clips et contenus événementiels, avec adaptation au brief, au format d'image et aux besoins de l'équipe.",
+        "priceFrom": "sur devis",
+        "icon": "camera"
+      }
+    ],
+    "stats": [
+      {
+        "value": "20 ans",
+        "label": "d'expérience en coiffure & makeup"
+      },
+      {
+        "value": "200+",
+        "label": "mariages sublimés"
+      },
+      {
+        "value": "Beauté",
+        "label": "shootings, clips & événements privés"
+      },
+      {
+        "value": "24-48h",
+        "label": "pour recevoir un devis"
+      }
+    ],
+    "portfolio": [
+      {
+        "src": "/ishma/gallery-mariage-1.jpeg",
+        "alt": "Mariée lumineuse au fini naturel et élégant",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-2.jpeg",
+        "alt": "Beauté mariée élégante aux finitions lumineuses",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-3.jpeg",
+        "alt": "Mise en beauté mariage douce et raffinée",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-4.jpeg",
+        "alt": "Mariage glamour naturel au teint frais",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-5.jpeg",
+        "alt": "Beauté mariée lumineuse pensée pour les photos",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-6.jpeg",
+        "alt": "Maquillage mariée chic et tenue longue durée",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-mariage-7.jpeg",
+        "alt": "Signature bridal douce, élégante et sur mesure",
+        "category": "mariage"
+      },
+      {
+        "src": "/ishma/gallery-color-1.jpeg",
+        "alt": "Beauté colorée au teint soyeux et regard défini",
+        "category": "color"
+      },
+      {
+        "src": "/ishma/gallery-color-2.jpeg",
+        "alt": "Look coloré avec intensité maîtrisée et peau lumineuse",
+        "category": "color"
+      },
+      {
+        "src": "/ishma/gallery-color-3.jpeg",
+        "alt": "Makeup color signature au rendu éditorial",
+        "category": "color"
+      },
+      {
+        "src": "/ishma/gallery-nude-1.jpeg",
+        "alt": "Makeup nude lumineux pour événement ou shooting",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-nude-2.jpeg",
+        "alt": "Beauté nude douce et peau subtilement glowy",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-nude-3.jpeg",
+        "alt": "Maquillage nude naturel et élégant",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-nude-4.jpeg",
+        "alt": "Nude sophistiqué pour beauté du quotidien et événement",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-nude-5.jpeg",
+        "alt": "Glow nude avec regard délicatement travaillé",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-nude-6.jpeg",
+        "alt": "Beauté nude premium au fini seconde peau",
+        "category": "nude"
+      },
+      {
+        "src": "/ishma/gallery-soiree-2.jpeg",
+        "alt": "Look glamour naturel pour soirée et mise en beauté festive",
+        "category": "soirée"
+      },
+      {
+        "src": "/ishma/gallery-soiree-3.jpeg",
+        "alt": "Beauté de soirée chic avec intensité et lumière",
+        "category": "soirée"
+      },
+      {
+        "src": "/ishma/gallery-soiree-4.jpeg",
+        "alt": "Maquillage soirée au glamour assumé",
+        "category": "soirée"
+      },
+      {
+        "src": "/ishma/gallery-coiffure-1.jpeg",
+        "alt": "Coiffure événementielle élégante et structurée",
+        "category": "coiffure"
+      },
+      {
+        "src": "/ishma/gallery-coiffure-2.jpeg",
+        "alt": "Coiffure glamour pensée pour sublimer la silhouette",
+        "category": "coiffure"
+      },
+      {
+        "src": "/ishma/gallery-coiffure-3.jpeg",
+        "alt": "Coiffure raffinée pour mariage ou événement",
+        "category": "coiffure"
+      },
+      {
+        "src": "/ishma/gallery-coiffure-4.jpeg",
+        "alt": "Attache élégante au rendu premium",
+        "category": "coiffure"
+      },
+      {
+        "src": "/ishma/gallery-coiffure-5.jpeg",
+        "alt": "Coiffure de soirée sophistiquée et durable",
+        "category": "coiffure"
+      }
+    ],
+    "beforeAfter": [
+      {
+        "title": "Peau lumineuse",
+        "context": "Une mise en beauté douce et lumineuse, pensée pour révéler sans surcharger.",
+        "beforeSrc": "/ishma/avant-1.jpeg",
+        "beforeAlt": "Portrait avant maquillage au naturel",
+        "afterSrc": "/ishma/apres-1.jpeg",
+        "afterAlt": "Portrait après maquillage glow et peau lumineuse"
+      },
+      {
+        "title": "Mariée glam",
+        "context": "Une mise en beauté de mariée plus définie, élégante et pensée pour rester harmonieuse du regard jusqu'aux photos.",
+        "beforeSrc": "/ishma/avant-2.jpeg",
+        "beforeAlt": "Portrait de mariée préparation beauté",
+        "afterSrc": "/ishma/apres-2.jpeg",
+        "afterAlt": "Portrait de mariée après mise en beauté"
+      }
+    ],
+    "workKit": {
+      "brands": ["Dior", "Fenty Beauty", "Huda Beauty", "Sephora Collection", "NYX Professional Makeup", "Black Up", "Too Faced", "Avril", "Erborian", "Embryolisse", "Avène"],
+      "note": "Une sélection de marques professionnelles et grand public expertes pour s'adapter à tous les types de peau, avec un questionnaire envoyé avant l'essai afin d'anticiper allergies, attentes, timing et niveau de finition recherché dans les meilleures conditions."
+    },
+    "videos": [],
+    "testimonials": [
+      {
+        "name": "Retour en image",
+        "role": "Cliente Ishma",
+        "text": "Après plusieurs années dans ce milieu, Ishma est la meilleure maquilleuse avec qui j'ai eu le privilège de travailler. À chaque shooting, elle sublime tout : le teint est impeccable, et chaque détail est maîtrisé à la perfection. Elle connaît très bien mon visage, comprend exactement l’univers du projet et arrive toujours à aller encore plus loin que ce que j’imaginais. Résultat, à chaque fois, je me sens confiante et mise en valeur. Elle a un talent immense, une créativité incroyable, et c'est une vraie professionnelle avec qui c’est un plaisir de collaborer. Hâte des prochains projets ensemble.",
+        "imageSrc": "/ishma/testimony-1.jpeg",
+        "imageAlt": "Photo témoignage d'une cliente d'Ishma"
+      },
+      {
+        "name": "Saugerta",
+        "role": "Cliente beauty",
+        "text": "J’ai eu la chance de me faire maquiller par Ishma et c’était incroyable. J’ai pu voir mon visage avec un style de make up dont je rêvais et que je voyais seulement dans les magazines ou à la télévision. En plus de son professionnalisme et de sa douceur, elle m’a donné une super astuce pour que mon maquillage tienne toute la journée, et cela a vraiment fait la différence.",
+        "imageSrc": "/ishma/testimony-2.jpeg",
+        "imageAlt": "Portrait de Saugerta"
+      },
+      {
+        "name": "Cliente cérémonie des César",
+        "role": "Événement officiel",
+        "text": "Pour la cérémonie officielle des César, je voulais un maquillage que l'on porte comme un vêtement, un ornement. Ishma a tout de suite compris mon idée, et j'ai immédiatement fait confiance à sa créativité et à son habileté. Elle sait mettre en valeur sans dénaturer, et c'est à mon sens ce qui fait d'elle une superbe maquilleuse. Ses gestes sont précis, elle donne des conseils soin et beauté, et l'on peut discuter tout en se faisant pomponner. Un vrai moment pour soi. Ce n'était pas la première fois que je faisais appel à ses services, et je n'hésiterais pas à recommencer.",
+        "imageSrc": "/ishma/testimony-3.jpeg",
+        "imageAlt": "Portrait d'une cliente pour une cérémonie officielle"
+      },
+      {
+        "name": "Gladys Cabarrus",
+        "role": "Clip “Ça va clasher”",
+        "text": "Pour mon clip “Ça va clasher”, un immense merci à Ishma pour ce maquillage absolument magnifique. Elle a pris le temps de comprendre ma peau et de choisir des couleurs parfaitement adaptées à mon teint. Le résultat était sublime, naturel et très élégant. On sent tout de suite son professionnalisme, sa douceur et surtout son vrai talent. Je me suis sentie vraiment mise en valeur et en confiance. Je recommande les yeux fermés.",
+        "imageSrc": "/ishma/testimony-4.jpeg",
+        "imageAlt": "Portrait de Gladys Cabarrus"
+      }
+    ],
+    "collaborations": [],
+    "social": {
+      "instagram": "https://www.instagram.com/ish_makeup_co/",
+      "email": "soilihiishma@gmail.com",
+      "phone": "+33 6 95 34 43 78"
+    },
+    "design": {
+      "primaryColor": "#1E1513",
+      "secondaryColor": "#F6EEE8",
+      "fontStyle": "editorial"
+    }
+  },
+  {
+    "slug": "sarah-beauty",
+    "name": "Sarah Beauty",
+    "tagline": "Makeup Artist | Bridal & Beauty",
+    "location": "Paris",
+    "availability": "Available for bookings",
+    "intro": "Soft glam, polished skin work and elevated bridal beauty designed for modern women, editorials and destination events.",
+    "bio": "Sarah Beauty is a Paris-based makeup artist known for luminous complexions, sculpted softness and an editorial eye. She creates beauty looks that photograph beautifully in natural light and remain timeless on campaigns, weddings and luxury events. Her approach balances precision, skin-first artistry and a calm client experience from prep to final touch-ups.",
+    "hero": {
+      "variant": "editorial-split",
+      "primaryImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      "primaryAlt": "Natural bridal makeup portrait",
+      "secondaryImage": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80",
+      "secondaryAlt": "Soft glam beauty editorial portrait",
+      "videoSrc": "https://cdn.coverr.co/videos/coverr-woman-with-evening-makeup-1575444639126?download=1080p",
+      "videoPoster": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=80"
+    },
+    "services": [
+      {
+        "title": "Bridal Signature",
+        "description": "Luxury bridal makeup with trial, skin preparation guidance and an on-site beauty experience.",
+        "priceFrom": "350 €",
+        "icon": "diamond"
+      },
+      {
+        "title": "Editorial Beauty",
+        "description": "Refined beauty direction for lookbooks, campaigns, beauty shoots and fashion content.",
+        "priceFrom": "280 €",
+        "icon": "camera"
+      },
+      {
+        "title": "Red Carpet & Events",
+        "description": "High-impact yet elegant makeup designed to last under flash photography and long event schedules.",
+        "priceFrom": "180 €",
+        "icon": "sparkle"
+      }
+    ],
+    "stats": [
+      {
+        "value": "120+",
+        "label": "Luxury bookings"
+      },
+      {
+        "value": "8 yrs",
+        "label": "Industry experience"
+      },
+      {
+        "value": "24h",
+        "label": "Average response time"
+      }
+    ],
+    "portfolio": [
+      {
+        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Natural bridal makeup portrait",
+        "category": "mariage"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Editorial beauty close-up",
+        "category": "editorial"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Glowy skin makeup for campaign",
+        "category": "nude"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fashion event makeup",
+        "category": "artistique"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Soft glam beauty portrait",
+        "category": "naturel"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Sophisticated makeup for evening event",
+        "category": "artistique"
+      }
+    ],
+    "beforeAfter": [
+      {
+        "title": "Mariage peau lumineuse",
+        "context": "Preparation de peau, correction de teint et mise en lumiere douce pour un rendu elegant, photogenique et durable du matin jusqu'au soir.",
+        "beforeSrc": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+        "beforeAlt": "Avant maquillage portrait naturel",
+        "afterSrc": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+        "afterAlt": "Après maquillage mariage portrait lumineux"
+      }
+    ],
+    "workKit": {
+      "brands": ["MAC", "Dior", "Chanel", "Make Up For Ever"],
+      "note": "Je n'utilise que des produits professionnels, longue tenue et adaptes aux peaux sensibles ou hypoallergeniques."
+    },
+    "videos": [
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-woman-with-evening-makeup-1575444639126?download=1080p",
+        "title": "Bridal glow reel",
+        "poster": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=80",
+        "description": "Soft bridal skin, elegant detail shots and natural-light finish work."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-model-in-soft-light-1571146831128?download=1080p",
+        "title": "Luxury prep sequence",
+        "poster": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1400&q=80",
+        "description": "Skin preparation and finishing details for refined premium bookings."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-beauty-portrait-in-motion-1575444621897?download=1080p",
+        "title": "Editorial beauty motion",
+        "poster": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=80",
+        "description": "A polished motion edit for bridal editorials and soft glam campaigns."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Camille Laurent",
+        "role": "Bride",
+        "text": "Sarah created the most elegant version of me. The makeup looked flawless in person, in photos and lasted from morning preparations to the final dance."
+      },
+      {
+        "name": "Nina Morel",
+        "role": "Creative Producer",
+        "text": "She brings a calm luxury energy on set and translates a visual brief into polished, camera-ready beauty every time."
+      },
+      {
+        "name": "Lola Martin",
+        "role": "Talent Manager",
+        "text": "Her skin work is exceptional. The result is premium, modern and never overdone."
+      }
+    ],
+    "collaborations": [
+      "Dior Beauty",
+      "Galeries Lafayette",
+      "Modern Bride Paris",
+      "Atelier Lumiere Studio",
+      "Maison Celeste"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/sarahbeauty",
+      "tiktok": "https://tiktok.com/@sarahbeauty",
+      "email": "hello@sarahbeauty.com",
+      "phone": "+33 6 12 34 56 78"
+    },
+    "design": {
+      "primaryColor": "#171312",
+      "secondaryColor": "#F5EDE6",
+      "fontStyle": "editorial"
+    }
+  },
+  {
+    "slug": "lea-atelier",
+    "name": "Lea Atelier",
+    "tagline": "Makeup Artist | Fashion & Campaign Beauty",
+    "location": "Lyon",
+    "availability": "Booking spring editorials",
+    "intro": "Beauty direction for fashion brands, polished skin stories and refined makeup looks with modern French elegance.",
+    "bio": "Lea Atelier works across fashion campaigns, creative shoots and premium private clients. Her signature is a clean complexion, nuanced color placement and a strong sense of image composition. She collaborates closely with photographers, stylists and producers to deliver beauty looks that feel elevated, current and commercially credible.",
+    "hero": {
+      "variant": "portrait-stack",
+      "primaryImage": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+      "primaryAlt": "Editorial beauty close-up with polished skin",
+      "secondaryImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+      "secondaryAlt": "Beauty campaign portrait with luminous makeup"
+    },
+    "services": [
+      {
+        "title": "Campaign Beauty",
+        "description": "Premium beauty execution for campaigns, digital launches and brand storytelling shoots.",
+        "priceFrom": "260 €",
+        "icon": "camera"
+      },
+      {
+        "title": "Lookbook & E-commerce",
+        "description": "Clean commercial makeup that keeps skin alive while supporting styling, casting and brand tone.",
+        "priceFrom": "220 €",
+        "icon": "brush"
+      },
+      {
+        "title": "Talent Grooming",
+        "description": "Camera-ready beauty and on-set touch-ups for founders, presenters and public appearances.",
+        "priceFrom": "160 €",
+        "icon": "profile"
+      }
+    ],
+    "stats": [
+      {
+        "value": "90+",
+        "label": "Campaign days"
+      },
+      {
+        "value": "6 yrs",
+        "label": "Luxury beauty work"
+      },
+      {
+        "value": "48h",
+        "label": "Project turnaround"
+      }
+    ],
+    "portfolio": [
+      {
+        "src": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Editorial beauty close-up with fresh skin",
+        "category": "editorial"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Campaign portrait with glowy complexion",
+        "category": "nude"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Fashion week inspired makeup look",
+        "category": "artistique"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Elevated event beauty portrait",
+        "category": "mariage"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Soft matte beauty story portrait",
+        "category": "naturel"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Bridal-inspired clean beauty portrait",
+        "category": "mariage"
+      }
+    ],
+    "beforeAfter": [
+      {
+        "title": "Lookbook clean skin",
+        "context": "Correction legere, harmonisation du teint et direction de texture pour garder une peau vivante tout en elevant le rendu camera.",
+        "beforeSrc": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+        "beforeAlt": "Avant maquillage studio",
+        "afterSrc": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+        "afterAlt": "Après maquillage lookbook studio"
+      }
+    ],
+    "workKit": {
+      "brands": ["NARS", "MAC", "Dior", "Charlotte Tilbury"],
+      "note": "Selection de produits professionnels pour la photo, la video et les peaux exigeantes, avec un focus sur la tenue et le confort."
+    },
+    "videos": [
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-happy-woman-in-a-photo-shoot-1566216584324?download=1080p",
+        "title": "Campaign beauty motion",
+        "poster": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1400&q=80",
+        "description": "Commercial beauty content designed for launch assets and branded reels."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-woman-posing-in-the-studio-1566216584035?download=1080p",
+        "title": "Studio portrait sequence",
+        "poster": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1400&q=80",
+        "description": "Refined complexion work captured in motion for fashion and editorial use."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-beauty-portrait-in-motion-1575444621897?download=1080p",
+        "title": "Beauty close-up edit",
+        "poster": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1400&q=80",
+        "description": "Movement-led content focused on texture, finish and premium beauty detail."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Marine Duvet",
+        "role": "Brand Producer",
+        "text": "Lea understands image instantly. Her beauty choices always support the campaign and elevate the whole frame."
+      },
+      {
+        "name": "Jules Perrin",
+        "role": "Photographer",
+        "text": "She is fast, precise and extremely tasteful. Skin always looks expensive and alive."
+      },
+      {
+        "name": "Eva Roche",
+        "role": "Founder",
+        "text": "From briefing to set etiquette, everything feels premium and effortless."
+      }
+    ],
+    "collaborations": [
+      "Rouje",
+      "Studio Mirabeau",
+      "Maison Rive",
+      "Velvet Casting",
+      "Numero Local"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/leaatelier",
+      "email": "booking@leaatelier.com",
+      "phone": "+33 6 98 76 54 32"
+    },
+    "design": {
+      "primaryColor": "#231815",
+      "secondaryColor": "#F2E8DF",
+      "fontStyle": "portrait"
+    }
+  },
+  {
+    "slug": "maya-signature",
+    "name": "Maya Signature",
+    "tagline": "Makeup Artist | Runway, Beauty Film & VIP Events",
+    "location": "Nice",
+    "availability": "Available for beauty film bookings",
+    "intro": "A cinematic beauty approach blending runway polish, luxury skin finishes and movement-led content for modern premium brands.",
+    "bio": "Maya Signature develops makeup looks for beauty film, runway content and high-end events where motion matters as much as the still image. Her work is known for dimensional skin, elegant structure and a sensual editorial finish that remains clear and believable across video, backstage and campaign assets.",
+    "hero": {
+      "variant": "cinematic-video",
+      "primaryImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+      "primaryAlt": "Runway-inspired makeup portrait",
+      "videoSrc": "https://cdn.coverr.co/videos/coverr-applying-beauty-makeup-1566216584325?download=1080p",
+      "videoPoster": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80"
+    },
+    "services": [
+      {
+        "title": "Beauty Film Makeup",
+        "description": "Makeup designed for motion, close-ups and premium brand storytelling across reels and campaign video.",
+        "priceFrom": "320 €",
+        "icon": "camera"
+      },
+      {
+        "title": "Runway & Backstage",
+        "description": "Structured looks that translate across quick changes, backstage pace and live capture moments.",
+        "priceFrom": "250 €",
+        "icon": "runway"
+      },
+      {
+        "title": "VIP Event Beauty",
+        "description": "High-performance luxury makeup for galas, launches and public-facing appearances.",
+        "priceFrom": "210 €",
+        "icon": "sparkle"
+      }
+    ],
+    "stats": [
+      {
+        "value": "35+",
+        "label": "Beauty films"
+      },
+      {
+        "value": "10 yrs",
+        "label": "Event expertise"
+      },
+      {
+        "value": "5 cities",
+        "label": "Travel coverage"
+      }
+    ],
+    "portfolio": [
+      {
+        "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Runway-inspired cinematic portrait",
+        "category": "artistique"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Luxury event beauty close-up",
+        "category": "mariage"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Glossy beauty campaign detail",
+        "category": "editorial"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Elegant complexion for luxury content",
+        "category": "nude"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Timeless bridal-inspired glow",
+        "category": "mariage"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Editorial skin story portrait",
+        "category": "naturel"
+      }
+    ],
+    "beforeAfter": [
+      {
+        "title": "VIP evening transformation",
+        "context": "Definition du regard, structure du teint et glow controle pour une allure premium qui tient aussi bien en reel qu'en evenement.",
+        "beforeSrc": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+        "beforeAlt": "Avant maquillage soiree",
+        "afterSrc": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        "afterAlt": "Après maquillage soirée premium"
+      }
+    ],
+    "workKit": {
+      "brands": ["Dior", "Chanel", "Pat McGrath", "Make Up For Ever"],
+      "note": "Uniquement des references professionnelles, hautes performances et adaptées a la photo, au tournage et aux peaux sensibles."
+    },
+    "videos": [
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-applying-beauty-makeup-1566216584325?download=1080p",
+        "title": "Backstage beauty film",
+        "poster": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80",
+        "description": "Runway-inspired preparation and touch-up moments captured for premium beauty motion."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-model-in-soft-light-1571146831128?download=1080p",
+        "title": "Luxury event motion",
+        "poster": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1400&q=80",
+        "description": "Elegant movement and skin texture for event-driven social content."
+      },
+      {
+        "src": "https://cdn.coverr.co/videos/coverr-beauty-portrait-in-motion-1575444621897?download=1080p",
+        "title": "Editorial skin story",
+        "poster": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1400&q=80",
+        "description": "A close-up beauty sequence highlighting finish, dimension and editorial detail."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Sofia Bianchi",
+        "role": "Creative Director",
+        "text": "Maya has a real video sensibility. Her makeup keeps depth, texture and sophistication even in close moving shots."
+      },
+      {
+        "name": "Clara Denis",
+        "role": "Luxury Events Lead",
+        "text": "Reliable, discreet and visually sharp. She brings high-end calm to demanding schedules."
+      },
+      {
+        "name": "Theo Martin",
+        "role": "Film Director",
+        "text": "She understands beauty under motion and light better than most. That is a major advantage on set."
+      }
+    ],
+    "collaborations": [
+      "Cannes Suites",
+      "Maison Azure",
+      "Riviera Runway",
+      "Studio Nova Films",
+      "Lune Beauty House"
+    ],
+    "social": {
+      "instagram": "https://instagram.com/mayasignature",
+      "tiktok": "https://tiktok.com/@mayasignature",
+      "email": "contact@mayasignature.com"
+    },
+    "design": {
+      "primaryColor": "#1A1717",
+      "secondaryColor": "#EFE6DF",
+      "fontStyle": "cinematic"
+    }
+  }
+]
