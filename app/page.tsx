@@ -21,18 +21,18 @@ export function generateMetadata(): Metadata {
     title: artist?.name ?? "Ishma Make Up Artist",
     description:
       artist?.intro ??
-      "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow.",
+      "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow.",
     openGraph: {
       title: artist?.name ?? "Ishma Make Up Artist",
       description:
         artist?.intro ??
-        "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow."
+        "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow."
     },
     twitter: {
       title: artist?.name ?? "Ishma Make Up Artist",
       description:
         artist?.intro ??
-        "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow."
+        "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow."
     }
   };
 }

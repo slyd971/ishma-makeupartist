@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     default: "Ishma Make Up Artist",
     template: "%s | Ishma Make Up Artist"
   },
-  description: "Hair & Makeup Artist a Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche elegante, douce et sur mesure.",
+  description: "Hair & Makeup Artist à Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche élégante, douce et sur mesure.",
   applicationName: "Ishma Make Up Artist",
   keywords: [
     "Ishma Make Up Artist",
-    "maquilleuse mariee",
+    "maquilleuse mariée",
     "hair and makeup artist",
     "maquillage bridal",
-    "maquillage evenementiel",
+    "maquillage événementiel",
     "Neuilly-sur-Marne"
   ],
   authors: [{ name: "Ishma Make Up Artist" }],
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Ishma Make Up Artist",
     title: "Ishma Make Up Artist",
-    description: "Hair & Makeup Artist a Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche elegante et sur mesure.",
+    description: "Hair & Makeup Artist à Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche élégante et sur mesure.",
     images: [
       {
         url: "/opengraph-image",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ishma Make Up Artist",
-    description: "Bridal, glam et natural glow avec une approche elegante et sur mesure.",
+    description: "Bridal, glam et natural glow avec une approche élégante et sur mesure.",
     images: ["/opengraph-image"]
   }
 };

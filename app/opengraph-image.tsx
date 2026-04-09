@@ -8,6 +8,9 @@ export const size = {
 };
 export const contentType = "image/png";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ishma-makeupartist.vercel.app";
+const heroImageUrl = `${siteUrl}/ishma/hero-ishma.jpeg`;
+
 export default function OpenGraphImage() {
   return new ImageResponse(
     (
@@ -48,145 +51,168 @@ export default function OpenGraphImage() {
         <div
           style={{
             display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-between",
             width: "100%",
-            padding: "56px 64px",
-            position: "relative"
+            height: "100%",
+            position: "relative",
+            padding: "36px"
           }}
         >
           <div
             style={{
               display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between"
+              width: "100%",
+              height: "100%",
+              borderRadius: 34,
+              overflow: "hidden",
+              border: "1px solid rgba(36,26,23,0.08)",
+              background: "rgba(255,255,255,0.36)",
+              boxShadow: "0 24px 80px rgba(36,26,23,0.12)"
             }}
           >
             <div
               style={{
                 display: "flex",
-                fontSize: 22,
-                letterSpacing: "0.28em",
-                textTransform: "uppercase",
-                color: "rgba(36,26,23,0.62)"
-              }}
-            >
-              Ishma Make Up Artist
-            </div>
-            <div
-              style={{
-                display: "flex",
-                border: "1px solid rgba(36,26,23,0.14)",
-                borderRadius: 9999,
-                padding: "12px 18px",
-                fontSize: 18,
-                letterSpacing: "0.18em",
-                textTransform: "uppercase",
-                color: "rgba(36,26,23,0.72)",
-                background: "rgba(255,255,255,0.42)"
-              }}
-            >
-              Bridal • Glam • Natural Glow
-            </div>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 20,
-              maxWidth: 860
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                fontSize: 92,
-                lineHeight: 0.94,
-                letterSpacing: "-0.05em",
-                fontWeight: 600
-              }}
-            >
-              Ishma
-            </div>
-            <div
-              style={{
-                display: "flex",
-                fontSize: 34,
-                lineHeight: 1.2,
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                color: "rgba(36,26,23,0.62)"
-              }}
-            >
-              Hair & Makeup Artist
-            </div>
-            <div
-              style={{
-                display: "flex",
-                fontSize: 32,
-                lineHeight: 1.35,
-                maxWidth: 920,
-                color: "rgba(36,26,23,0.82)"
-              }}
-            >
-              Mise en beaute lumineuse, douce et sur mesure pour mariees,
-              evenements et shootings.
-            </div>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between"
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                gap: 14
-              }}
-            >
-              {["Neuilly-sur-Marne", "Devis sous 24 a 48h", "Disponible par email"].map(
-                (item) => (
-                  <div
-                    key={item}
-                    style={{
-                      display: "flex",
-                      borderRadius: 9999,
-                      border: "1px solid rgba(36,26,23,0.12)",
-                      background: "rgba(255,255,255,0.5)",
-                      padding: "12px 18px",
-                      fontSize: 20,
-                      color: "rgba(36,26,23,0.7)"
-                    }}
-                  >
-                    {item}
-                  </div>
-                )
-              )}
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                width: 150,
-                height: 150,
-                borderRadius: 28,
-                border: "1px solid rgba(36,26,23,0.08)",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                width: "58%",
+                padding: "44px 44px 38px",
                 background:
-                  "linear-gradient(145deg, rgba(255,255,255,0.72) 0%, rgba(234,220,207,0.95) 100%)",
-                alignItems: "center",
-                justifyContent: "center",
-                boxShadow: "0 18px 60px rgba(36,26,23,0.1)",
-                fontSize: 34,
-                letterSpacing: "0.18em",
-                textTransform: "uppercase",
-                color: "#241a17"
+                  "linear-gradient(180deg, rgba(255,255,255,0.72) 0%, rgba(248,239,231,0.86) 100%)"
               }}
             >
-              IMA
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between"
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    fontSize: 22,
+                    letterSpacing: "0.28em",
+                    textTransform: "uppercase",
+                    color: "rgba(36,26,23,0.62)"
+                  }}
+                >
+                  Ishma Make Up Artist
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    border: "1px solid rgba(36,26,23,0.14)",
+                    borderRadius: 9999,
+                    padding: "12px 18px",
+                    fontSize: 18,
+                    letterSpacing: "0.18em",
+                    textTransform: "uppercase",
+                    color: "rgba(36,26,23,0.72)",
+                    background: "rgba(255,255,255,0.42)"
+                  }}
+                >
+                  Bridal • Glam • Natural Glow
+                </div>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 18,
+                  maxWidth: 520
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    fontSize: 88,
+                    lineHeight: 0.94,
+                    letterSpacing: "-0.05em",
+                    fontWeight: 600
+                  }}
+                >
+                  Ishma
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    fontSize: 32,
+                    lineHeight: 1.2,
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                    color: "rgba(36,26,23,0.62)"
+                  }}
+                >
+                  Hair & Makeup Artist
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    fontSize: 30,
+                    lineHeight: 1.35,
+                    color: "rgba(36,26,23,0.82)"
+                  }}
+                >
+                  Mise en beauté lumineuse, douce et sur mesure pour mariées,
+                  événements et shootings.
+                </div>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  gap: 12,
+                  flexWrap: "wrap"
+                }}
+              >
+                {["Neuilly-sur-Marne", "Devis sous 24 à 48h", "Disponible par e-mail"].map(
+                  (item) => (
+                    <div
+                      key={item}
+                      style={{
+                        display: "flex",
+                        borderRadius: 9999,
+                        border: "1px solid rgba(36,26,23,0.12)",
+                        background: "rgba(255,255,255,0.5)",
+                        padding: "12px 18px",
+                        fontSize: 20,
+                        color: "rgba(36,26,23,0.7)"
+                      }}
+                    >
+                      {item}
+                    </div>
+                  )
+                )}
+              </div>
+            </div>
+
+            <div
+              style={{
+                display: "flex",
+                width: "42%",
+                position: "relative",
+                background: "#d8c3b2"
+              }}
+            >
+              <img
+                src={heroImageUrl}
+                alt="Portrait hero d’Ishma"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition: "center top"
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background:
+                    "linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(0,0,0,0.18) 100%)"
+                }}
+              />
             </div>
           </div>
         </div>
