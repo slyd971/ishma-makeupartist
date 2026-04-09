@@ -13,28 +13,16 @@ import { Testimonials } from "@/components/Testimonials";
 import { Videos } from "@/components/Videos";
 import { WorkKit } from "@/components/WorkKit";
 import { getDefaultMakeupArtist } from "@/data/makeupArtists";
+import { buildPageMetadata, seoConfig } from "@/lib/seo";
 
 export function generateMetadata(): Metadata {
   const artist = getDefaultMakeupArtist();
 
-  return {
-    title: artist?.name ?? "Ishma Make Up Artist",
-    description:
-      artist?.intro ??
-      "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow.",
-    openGraph: {
-      title: artist?.name ?? "Ishma Make Up Artist",
-      description:
-        artist?.intro ??
-        "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow."
-    },
-    twitter: {
-      title: artist?.name ?? "Ishma Make Up Artist",
-      description:
-        artist?.intro ??
-        "Hair & Makeup Artist à Neuilly-sur-Marne pour bridal, glam et natural glow."
-    }
-  };
+  return buildPageMetadata({
+    title: artist?.name ?? seoConfig.siteName,
+    description: artist?.intro ?? seoConfig.defaultDescription,
+    path: "/"
+  });
 }
 
 export default function HomePage() {

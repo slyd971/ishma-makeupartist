@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 
+import { buildOgImageUrl, seoConfig } from "@/lib/seo";
+
 import "./globals.css";
 
 const display = Cormorant_Garamond({
@@ -15,16 +17,14 @@ const body = Manrope({
   weight: ["400", "500", "600", "700"]
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ishma-makeupartist.vercel.app";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(seoConfig.siteUrl),
   title: {
-    default: "Ishma Make Up Artist",
-    template: "%s | Ishma Make Up Artist"
+    default: seoConfig.siteName,
+    template: `%s | ${seoConfig.siteName}`
   },
-  description: "Hair & Makeup Artist à Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche élégante, douce et sur mesure.",
-  applicationName: "Ishma Make Up Artist",
+  description: seoConfig.defaultDescription,
+  applicationName: seoConfig.siteName,
   keywords: [
     "Ishma Make Up Artist",
     "maquilleuse mariée",
@@ -33,33 +33,37 @@ export const metadata: Metadata = {
     "maquillage événementiel",
     "Neuilly-sur-Marne"
   ],
-  authors: [{ name: "Ishma Make Up Artist" }],
-  creator: "Ishma Make Up Artist",
-  publisher: "Ishma Make Up Artist",
+  authors: [{ name: seoConfig.siteName }],
+  creator: seoConfig.siteName,
+  publisher: seoConfig.siteName,
   alternates: {
     canonical: "/"
+  },
+  robots: {
+    index: true,
+    follow: true
   },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: "/",
-    siteName: "Ishma Make Up Artist",
-    title: "Ishma Make Up Artist",
-    description: "Hair & Makeup Artist à Neuilly-sur-Marne. Bridal, glam et natural glow avec une approche élégante et sur mesure.",
+    siteName: seoConfig.siteName,
+    title: seoConfig.siteName,
+    description: seoConfig.defaultDescription,
     images: [
       {
-        url: "/opengraph-image",
+        url: buildOgImageUrl(),
         width: 1200,
         height: 630,
-        alt: "Ishma Make Up Artist, hair and makeup artist"
+        alt: `${seoConfig.siteName} preview`
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ishma Make Up Artist",
-    description: "Bridal, glam et natural glow avec une approche élégante et sur mesure.",
-    images: ["/opengraph-image"]
+    title: seoConfig.siteName,
+    description: seoConfig.defaultDescription,
+    images: [buildOgImageUrl()]
   }
 };
 

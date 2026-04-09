@@ -4,14 +4,16 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Portfolio } from "@/components/Portfolio";
 import { getDefaultMakeupArtist } from "@/data/makeupArtists";
+import { buildPageMetadata, seoConfig } from "@/lib/seo";
 
 export function generateMetadata(): Metadata {
   const artist = getDefaultMakeupArtist();
 
-  return {
+  return buildPageMetadata({
     title: artist ? `${artist.name} | Gallery` : "Gallery",
-    description: artist ? `Portfolio complet de ${artist.name}` : "Galerie Ishma"
-  };
+    description: artist ? `Portfolio complet de ${artist.name}` : seoConfig.defaultDescription,
+    path: "/gallery"
+  });
 }
 
 export default function GalleryPage() {
