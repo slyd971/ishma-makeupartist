@@ -18,8 +18,22 @@ export function generateMetadata(): Metadata {
   const artist = getDefaultMakeupArtist();
 
   return {
-    title: artist ? `${artist.name} | Press Kit` : "Ishma Make Up Artist",
-    description: artist?.intro ?? "Press kit Ishma Make Up Artist"
+    title: artist?.name ?? "Ishma Make Up Artist",
+    description:
+      artist?.intro ??
+      "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow.",
+    openGraph: {
+      title: artist?.name ?? "Ishma Make Up Artist",
+      description:
+        artist?.intro ??
+        "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow."
+    },
+    twitter: {
+      title: artist?.name ?? "Ishma Make Up Artist",
+      description:
+        artist?.intro ??
+        "Hair & Makeup Artist a Neuilly-sur-Marne pour bridal, glam et natural glow."
+    }
   };
 }
 
